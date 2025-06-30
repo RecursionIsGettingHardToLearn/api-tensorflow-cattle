@@ -1,0 +1,16 @@
+vev/
+venv/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# Ignorar configuraciones de IDE
+.vscode/
+.idea/
+
+# Ignorar otros archivos grandes o innecesarios
+*.zip
+*.tar.gz
