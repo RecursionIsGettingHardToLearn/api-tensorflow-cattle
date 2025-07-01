@@ -58,21 +58,22 @@ app.add_middleware(
 
 # Etiquetas y endpoint del modelo
 LABELS = [
-    "Angus",
+    "Ankole",
     "Belted Galloway",
-    "Charolais",
+    "Brahman",
     "Desconocido",
-    "Highland",
-    "Limousin"
+    "Frisona",
+    "Highland"
 ]
 
-#TF_SERVING_URL = (
-#    "https://modelo-cocina-314745621240.europe-west1.run.app"
-#    "/v1/models/modelo_cocina:predict"
-#)
+
+TF_SERVING_URL = (
+    "https://modelo-cocina-314745621240.europe-west1.run.app"
+    "/v1/models/modelo_cocina:predict"
+)
 
 
-TF_SERVING_URL = "https://modelo-tensorflow-cattle.onrender.com/v1/models/modelo_cocina:predict"
+#TF_SERVING_URL = "https://modelo-tensorflow-cattle.onrender.com/v1/models/modelo_cocina:predict"
 
 
 # --- Eventos de inicio y cierre para la conexión a BD ---
